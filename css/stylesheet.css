@@ -11,10 +11,11 @@ body{
     max-height: max-content;
     min-height: fit-content;
     
+    
 }
 
 .flexbox{
-    width: 1900px;
+    width: 1890px;
     height: auto;
     margin: auto;
     display: flex;
@@ -23,7 +24,7 @@ body{
     justify-content: flex-start;
     align-items: stretch;
     align-content: normal;
-    background-image: url(../img/fondopcs.png);
+    background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -36,13 +37,11 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: stretch;
-    width: 95%;
+    justify-content: center;
+    width: 100%;
     height: 150px;
-    margin-left: 2.5%;
-    border: 7px white solid;
-    border-radius: 5px;
-    
     background-color: #012030;
+    border-bottom: 5px white solid;
 }
 
 .verticalcontenido{
@@ -53,13 +52,12 @@ body{
   width: 98.3%;
   height: auto;
   max-height: 3000px;
-  margin-top: 1%;
+  margin-top: 2%;
   
 }
 .menuhorizontal{
     width: 80%;
     height: 150px;
-    border-left: white 14px solid;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -74,7 +72,7 @@ body{
 .logo {
     width: 15%;
 
-    height: 100%;
+    height: 80%;
 }
 .logo img{
     max-width: 100%;
@@ -168,10 +166,6 @@ a:visited{
     align-items: center;
     justify-content: center;
     width: 18%;
-    border: 7px white solid;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-collapse: collapse;
     margin-left: 2.7%;
     background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
@@ -179,24 +173,21 @@ a:visited{
 }
 .categorias{
 margin: auto;
+background-color: #012030;
+color: #45C4B0;
 }
 .categorias a{
-    color: black
+    color: #45C4B0;
 }
-.categorias a:hover{
-    color:#45C4B0 ;
-    
-    transition-duration: 300ms;
-}
-.categorias h2:hover{
-    transition-duration: 300ms;
-}
+
+
 .categorias ul{
     list-style: none;
 }
 
 .categorias h1{
-    font-size: 50px;
+    font-size: 43px;
+    text-decoration: underline;
 }
 .categorias a{
     font-size: 30px;
@@ -207,10 +198,6 @@ margin: auto;
     align-items: center;
     align-content: center;
     width: 89.5%;
-    border: 7px white solid;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-collapse: collapse;
     height: auto;
     background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
