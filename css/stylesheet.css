@@ -386,14 +386,14 @@ display: flex;
     margin-bottom: 12px;
     scale: 0.7;
  }
- .login {
+ .loginadri {
     background: linear-gradient(135deg, #005f73,#7edcb8);
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
     height: 100vh;
     display: flex;
+    width: 100%;
     color: #45C4B0;
     margin: 0;
     position: relative; /* Para posicionar el selector de idiomas */
@@ -423,6 +423,9 @@ display: flex;
     border-radius: 25px;
     box-shadow: 0 4px 8px black;
     text-align: center;
+    a{
+        font-size: 20px;
+    }
 }
 
 .container h1 {
@@ -471,4 +474,9 @@ button {
 
 button:hover {
     background-color: #45C4B0;
+}
+
+
+#volver {
+    font-size: 10px;
 }
