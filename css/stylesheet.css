@@ -451,7 +451,7 @@ display: flex;
     outline: none;
 }
 
-input[type="text"], input[type="email"], input[type="password"] {
+.loginadri input[type="text"], input[type="email"], input[type="password"] {
     background-color: transparent;
     color: #fff;
     border: none;
@@ -461,7 +461,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-size: 16px;
 }
 
-button {
+.loginadri button {
     width: 100%;
     padding: 10px;
     background-color: #13678A;
@@ -472,7 +472,7 @@ button {
     font-size: large;
 }
 
-button:hover {
+.loginadri button:hover {
     background-color: #45C4B0;
 }
 
