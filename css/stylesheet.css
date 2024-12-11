@@ -181,7 +181,13 @@ a:visited{
 .categorias a{
     font-size: 30px;
 }
- .contenido{
-    width: fit-content;
+ .contenido_inicio_aguila{
+    width: 90%;
     height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
  }
