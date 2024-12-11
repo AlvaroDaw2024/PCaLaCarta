@@ -1,14 +1,28 @@
+/* Colores:
+#012030 Azul marino
+#13678A Azul mas claro
+#45C4B0 Verde azulado
+*/
+
+
+
+
+
+
+
 body {
-    background: linear-gradient(135deg, #005f73,#7edcb8);
+    background-image: url('https://wallpapers.com/images/hd/glowing-blue-chip-hd-computer-yq6y883ilofzggjz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
     height: 100vh;
     display: flex;
-    color: #45C4B0;
+    color: rgb(225, 132, 19);
     margin: 0;
-    position: relative; /* Para posicionar el selector de idiomas */
+    position: relative;
 }
 
 .Selector {
@@ -17,11 +31,11 @@ body {
     right: 10px;
 }
 
-.selector select {
+.Selector select {
     padding: 10px;
     font-size: medium;
     background-color: rgba(62, 55, 55, 0.8);
-    border: 1.5px solid #13678A;
+    border: 1.5px solid rgb(225, 132, 19);
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
@@ -39,10 +53,10 @@ body {
 
 .container h1 {
     margin-bottom: 20px;
-    color: #45C4B0;
+    color: rgb(225, 132, 19);
 }
 
-.campo {
+.correo, .contraseña {
     background-color: rgb(62, 55, 55);
     padding: 0.5%;
     border-radius: 10px;
@@ -50,7 +64,7 @@ body {
     margin-bottom: 15px;
 }
 
-.campo input {
+.correo2 {
     width: 95%;
     padding: 10px;
     font-size: 16px;
@@ -60,7 +74,7 @@ body {
     outline: none;
 }
 
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="email"], input[type="password"] {
     background-color: transparent;
     color: #fff;
     border: none;
@@ -73,7 +87,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #13678A;
+    background-color: rgb(225, 132, 19);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -82,5 +96,5 @@ button {
 }
 
 button:hover {
-    background-color: #45C4B0;
+    background-color: rgb(200, 117, 17);
 }
