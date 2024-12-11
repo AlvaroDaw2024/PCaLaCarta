@@ -289,6 +289,9 @@ div{
  .portatiles a:hover{
     transform: scale(1.5);
  }
+ .portatiles a{
+    font-size: 40px;
+ }
 
  .sobremesa {
     width: 90%;
@@ -332,9 +335,6 @@ display: flex;
   margin-top: 5%;
     
  }
-/**
-
-**/
  .card{
     width: 400px;
     aspect-ratio: 1 , 0.7;
@@ -480,3 +480,97 @@ display: flex;
 #volver {
     font-size: 10px;
 }
+
+
+.dani {
+    background-color: #012030;
+    height: 1200px;
+}
+
+
+.haches {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dani h1 {
+    
+    color: #9AEBA3;
+}
+
+.dani h4 {
+    
+    color: white;
+    font-size: small;
+}
+
+.dani form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9AEBA3;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dani label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.dani input, .dani select, .dani textarea, .dani button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px solid #012030;
+    border-radius: 5px ;
+}
+
+
+.dani button {
+    background-color: #13678A;
+    color: #012030;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dani button:hover {
+    background-color: #45C4B0;
+}
+
+.compraventareparacion {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    margin-top: 5%;
+   
+    div{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        color: white;
+        border: 5px solid #012030 ;
+        background-color: #012030;
+        border-radius: 5px;
+        margin-right: 1%; 
+    }
+}
+
+.compraventareparacion a{
+    font-size: 40px;
+}
+.compraventareparacion h1:hover{
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+ }
