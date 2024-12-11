@@ -3,22 +3,32 @@
 #13678A Azul mas claro
 #45C4B0 Verde azulado
 */
-
+* {
+    box-sizing: border-box;
+  }
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-height: max-content;
+    min-height: fit-content;
+    
+    
 }
 
 .flexbox{
-    width: 99%;
+    width: 1890px;
     height: auto;
     margin: auto;
-    background-color: gray;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: normal;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 
 .logomenu{
@@ -27,40 +37,42 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: stretch;
-    width: 95%;
+    justify-content: center;
+    width: 100%;
     height: 150px;
-    background-color: pink;
-    margin-left: 2.5%;
-    border: 1px black solid;
+    background-color: #012030;
+    border-bottom: 5px white solid;
 }
 
 .verticalcontenido{
     display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
   align-items: stretch;
-  width: 97.5%;
-  background-color: lightblue;
+  width: 98.3%;
   height: auto;
   max-height: 3000px;
-  margin-top: 1%;
+  margin-top: 2%;
+  
 }
 .menuhorizontal{
     width: 80%;
-    border: 1px black solid;
     height: 150px;
-    justify-content: space-evenly;
     display: flex;
-    align-items: center;
-    margin: auto;
     flex-direction: row;
+    margin: auto;
+    padding-left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: end;
+    background-color: #012030;
 }
+
 
 .logo {
     width: 15%;
-    border: 1px black solid;
-    height: 100%;
+
+    height: 80%;
 }
 .logo img{
     max-width: 100%;
@@ -73,7 +85,7 @@ body{
 
 .buscador {
     width: 70%;
-    border: 1px black solid;
+    border: 3px white solid;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -96,24 +108,23 @@ body{
 }
 
 .buscador button:hover{
-    background-color: #45c4b0;
+    background-color: #45C4B0;
     transition-duration: 500ms;
 }
 a{
     font-size: 25px;
-    color: #012030;
+    color: #45C4B0;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
 }
 a:hover{
-   color:#13678A ;
-    transform: scale(1.1);
+   color:#45C4B0 ;
     transition-duration: 300ms;
 } 
 
 a:visited{
-    color:#13678A ;
+    color:#45C4B0 ;
 }
 
 .formulario{
@@ -121,12 +132,12 @@ a:visited{
     height: 100%;
     display: flex;
     justify-content: center;
-    border: 1px black solid;
+    
     align-items: center;
 }
 .compraventa{
     width: 10%;
-    border: 1px solid black;
+    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -136,7 +147,7 @@ a:visited{
     width: 10%;
     max-height: 100%;
     height: 100%;
-    border: solid black 1px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,31 +163,31 @@ a:visited{
 
 .menuvertical{
     display: flex;
-    align-items: normal;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     width: 18%;
-    border: 1px solid black;
     margin-left: 2.7%;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.categorias{
+margin: auto;
+background-color: #012030;
+color: #45C4B0;
+}
+.categorias a{
+    color: #45C4B0;
 }
 
-.categorias a{
-    color: black
-}
-.categorias a:hover{
-    color:#13678A ;
-    transform: scale(1.1);
-    transition-duration: 300ms;
-}
-.categorias h2:hover{
-    transform: scale(1.1);
-    transition-duration: 300ms;
-}
+
 .categorias ul{
     list-style: none;
 }
 
 .categorias h1{
-    font-size: 50px;
+    font-size: 43px;
+    text-decoration: underline;
 }
 .categorias a{
     font-size: 30px;
@@ -186,19 +197,25 @@ a:visited{
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 100%;
-    border: 1px solid black;
+    width: 89.5%;
     height: auto;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     iframe{
         margin: auto;
         width: 100%;
         height: 100%;
     }
  }
+
+
 .iniciodiv{
     width: 90%;
     margin: auto;
     margin-top: 2%;
+    
 }
  .inicio{
     font-size: large;
@@ -214,10 +231,10 @@ a:visited{
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    height: 150px;
-    border: 4px solid white;
-    border-radius: 5px;
+    height: 100px;
+    margin-top: 5%;
     border-collapse: collapse;
+    
     div{
         width: 20%;
         height: 100%;
@@ -226,19 +243,22 @@ a:visited{
         align-items: center;
         align-content: center;
         text-align: center;
-        border-collapse: collapse;
-        border: 2px solid white;
+        color: white;
+        border: 5px solid #012030 ;
+        background-color: #012030;
+        border-radius: 5px;
+        margin-right: 1%;
     }
     
     }
-    div:hover{
+    .componentes div:hover{
         
         border-collapse: collapse;
         transition-duration: 100ms;
     }
 
  .componentes a:hover{
-    transform: scale(1.1);
+    
  }
 
  .portatiles{
@@ -248,20 +268,22 @@ a:visited{
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    height: 150px;
-    border: 4px solid white;
-    border-radius: 5px;
+    height: 100px;
+    margin-top: 5%;
     border-collapse: collapse;
 div{
     width: 40%;
-    height: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
         text-align: center;
-        border-collapse: collapse;
-        border: 2px solid white;
+        color: white;
+        border: 5px solid #012030 ;
+        background-color: #012030;
+        border-radius: 5px;
+        margin-right: 1%;
 }
  }
  .portatiles a:hover{
@@ -275,23 +297,92 @@ div{
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    height: 150px;
-    border: 4px solid white;
-    border-radius: 5px;
+    height: 100px;
+    margin-top: 5%;
     border-collapse: collapse;
     div{
         width: 50%;
         height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            text-align: center;
-            border-collapse: collapse;
-            border: 2px solid white; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        color: white;
+        border: 5px solid #012030 ;
+        background-color: #012030;
+        border-radius: 5px;
+        margin-right: 1%; 
     }
  }
 
  .sobremesa a:hover{
     transform: scale(1.7);
+ }
+
+ .cartitas{
+height: max-content;
+display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    flex-direction: row;
+    height: auto;
+  color: white;
+  margin-top: 5%;
+    
+ }
+/**
+
+**/
+ .card{
+    width: 400px;
+    aspect-ratio: 1 , 0.7;
+    border-radius: 8px;
+    position: relative;
+    height: 400px;
+ }
+
+ .card .imagen img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+ }
+
+ .card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+ }
+ .card:hover img {
+    filter: grayscale(1)
+    brightness(0.4);
+
+ }
+
+ .card:hover::after {
+    opacity: 1;
+    inset: 20px;
+ }
+
+ .card:hover .textocarta h2 {
+    scale: 1;
+    opacity: 1;
+ }
+
+ .textocarta h2 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    transition: 0.4s 0.3s ease;
+    margin-bottom: 12px;
+    scale: 0.7;
  }
