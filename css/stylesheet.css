@@ -385,7 +385,8 @@ display: flex;
     transition: 0.4s 0.3s ease;
     margin-bottom: 12px;
     scale: 0.7;
- }.login {
+ }
+ .login {
     background: linear-gradient(135deg, #005f73,#7edcb8);
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
