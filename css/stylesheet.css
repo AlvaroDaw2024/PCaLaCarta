@@ -1,0 +1,91 @@
+.flexbox{
+    width: 99%;
+    height: 1000px;
+    margin: auto;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: normal;
+}
+
+.logomenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 95%;
+    height: 200px;
+    background-color: pink;
+    margin-left: 2.5%;
+}
+
+.verticalcontenido{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: normal;
+  width: 97.5%;
+  background-color: lightblue;
+  height: 800px;
+  margin-top: 1%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #012030;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9AEBA3;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: small;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9AEBA3;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px solid #012030;
+    border-radius: 5px ;
+}
+
+
+button {
+    background-color: #13678A;
+    color: #012030;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45C4B0;
+}

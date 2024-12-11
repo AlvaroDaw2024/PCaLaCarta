@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pc a la carta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<header>
+
+<h1>FORMULARIO DE COMPONENTES</h1>
+<h4>Completa este formulario para que PC A LA CARTA pueda ayudarte</h4>
+
+</header>
+
+<body>
+
+    <div class="form-container">
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Introduce tu correo">
+            </div>
+            <div class="form-group">
+                <label for="uso">¿Para qué vas a usar el ordenador?</label>
+                <select id="uso" name="uso">
+                    <option value="">Selecciona una opción</option>
+                    <option value="juegos">Juegos</option>
+                    <option value="trabajo">Trabajo</option>
+                    <option value="estudio">Estudio</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="presupuesto">Presupuesto aproximado (€):</label>
+                <input type="number" id="presupuesto" name="presupuesto" placeholder="Introduce tu presupuesto">
+            </div>
+            <div class="form-group">
+                <label for="preferencias">¿Tienes preferencia por alguna marca o componente? (Opcional)</label>
+                <textarea id="preferencias" name="preferencias" placeholder="Ejemplo: prefiero procesadores Intel o AMD, tarjetas gráficas NVIDIA, etc."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="importante">¿Qué es más importante para ti? (Selecciona hasta 3 opciones)</label>
+                <select id="importante" name="importante" multiple>
+                    <option value="rendimiento">Rendimiento</option>
+                    <option value="precio">Precio</option>
+                    <option value="durabilidad">Durabilidad</option>
+                    <option value="actualizacion">Capacidad de actualización</option>
+                    <option value="estetica">Estética</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="otros">¿Algo que debamos saber?</label>
+                <textarea id="otros" name="otros" placeholder="Describe cualquier dato importante"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
